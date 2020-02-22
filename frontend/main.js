@@ -726,7 +726,7 @@ function processUpdate(data, init) {
                 } else {
                     // If there is a marker, draw a line from its last location
                     // instead and move the marker.
-                    line = L.polyline([shares[user].marker.getLatLng(), [lat, lon]], {color: TRAIL_COLOR}).addTo(markerLayer);
+                    // line = L.polyline([shares[user].marker.getLatLng(), [lat, lon]], {color: TRAIL_COLOR}).addTo(markerLayer);
                     shares[user].marker.setLatLng([lat, lon]);
                 }
                 // Draw an accuracy circle if GPS accuracy was provided by the
