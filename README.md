@@ -1,5 +1,12 @@
 ![Hauk](./frontend/assets/logo.svg "Hauk")
 
+# Bigly Hide 'n' Seek
+
+This is the server used to track players. It is essentially just
+[Hauk](https://github.com/bilde2910/Hauk) with one major modification:
+location is never accurate than 50m.
+It is fully compatible with the Hauk Android app.
+
 # Hauk
 
 [![GitHub license](https://img.shields.io/github/license/bilde2910/Hauk)](https://github.com/bilde2910/Hauk/blob/master/LICENSE)
